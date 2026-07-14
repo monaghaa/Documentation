@@ -43,7 +43,7 @@ Users can:
 
 
 ```{tip}
-Users of `persistence1` likely require their workflow management processes to persist between _ssh_ sessions. The Linux utilities [tmux](https://github.com/tmux/tmux/wiki) and [screen](https://man7.org/linux/man-pages/man1/screen.1.html) are "terminal multiplexers" available on `persistence1`. Both utilities enable long-running processes to continue after your _ssh_ connection disconnects, and allow you to reconnect to them during your next _ssh_ session.
+Users of `persistence1` likely require their workflow management processes to persist between _ssh_ sessions. The Linux utilities [tmux](https://github.com/tmux/tmux/wiki) and [screen](https://man7.org/linux/man-pages/man1/screen.1.html) are "terminal multiplexers" available on `persistence1`. Both utilities enable long-running processes to continue after your _ssh_ session ends and then reconnect to the same environment during your next _ssh_ session.
 ```
 
 ## Getting Help
