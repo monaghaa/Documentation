@@ -41,6 +41,11 @@ Users can:
 * use the Miniforge module to create and manage conda environments that contain workflow managers
 * directly load and use modules for popular workflow managers such as Nextflow
 
+
+```{tip}
+Users of `persistence1` likely require their workflow management processes to persist between _ssh_ sessions. The Linux utilities [tmux](https://github.com/tmux/tmux/wiki) and [screen](https://man7.org/linux/man-pages/man1/screen.1.html) are "terminal multiplexers" available on `persistence1`. Both utilities enable long-running processes to continue after your _ssh_ connection disconnects, and allow you to reconnect to them during your next _ssh_ session.
+```
+
 ## Getting Help
 
 If you have questions about access, software availability, or workflow configuration on `Persistence1`, submit a request through [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form).
